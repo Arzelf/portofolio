@@ -4,7 +4,7 @@ import { AiOutlineInstagram } from "react-icons/ai";
 import { GiEarthAmerica } from "react-icons/gi";
 import { FaLinkedinIn } from "react-icons/fa";
 import { Slide } from "react-awesome-reveal";
-import imgProfile from "../images/Profile3.png"
+import imgProfile from "../images/idcard.png"
 import { Button } from 'reactstrap';
 
 const ProfComponent = () => {
