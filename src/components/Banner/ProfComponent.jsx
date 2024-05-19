@@ -4,11 +4,10 @@ import { AiOutlineInstagram } from "react-icons/ai";
 import { GiEarthAmerica } from "react-icons/gi";
 import { FaLinkedinIn } from "react-icons/fa";
 import { Slide } from "react-awesome-reveal";
-import imgProfile from "../images/idcard.png"
-import { Button } from 'reactstrap';
+import imgProfile from "../images/idcard.png";
+import { Button } from "reactstrap";
 
 const ProfComponent = () => {
-
   return (
     <Container id="home">
       <Slide direction="left">
@@ -19,7 +18,12 @@ const ProfComponent = () => {
           <h1 className="green">Aris Firmansyah</h1>
           <h3>Software Enginer</h3>
           <p>
-            A fresh graduate who is interested in developing websites and mobile applications using React
+            As a junior software engineer, I am eager to learn and constantly
+            enhance my knowledge. I am dedicated to mastering deep programming
+            concepts and leveraging artificial intelligence to optimize
+            development processes, making them faster and more efficient. I am
+            driven by a passion for innovation and committed to contributing to
+            impactful projects.
           </p>
           <Button href="https://wa.me/6281216789364">Let's talk</Button>
           <Social>
@@ -46,10 +50,7 @@ const ProfComponent = () => {
       </Slide>
       <Slide direction="right">
         <Profile>
-          <img
-            src={imgProfile}
-            alt="profile"
-          />
+          <img src={imgProfile} alt="profile" />
         </Profile>
       </Slide>
     </Container>
